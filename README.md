@@ -177,6 +177,8 @@ pip install -r requirements.txt
 
 python main.py
 
+# pour valider les commandes sql
+juptyer notebook Data_exploration.ipynb
 
 ```
 
