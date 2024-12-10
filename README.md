@@ -14,7 +14,7 @@ Le but de ce TP est d'enrichir un pipeline ETL avec des données provenant d'aut
 
 Voici à quoi ressemble le pipeline ETL final:
 
-![img.png](img.png)
+![images/image2.png](img.png)
 
 ## Documentation du projet
 La section suivante explique le code que j'ai ajouté au projet afin d'enrichir le pipeline ETL avec des données provenant de nouvelles villes et des données descriptives supplémentaires issues d'une API gouvernementale.
@@ -165,6 +165,17 @@ Ce projet m'a permis de comprendre le fonctionnement d'un pipeline ETL et de l'e
 
 ## Comment faire fonctionner ce projet?
 ```
+git clone https://github.com/fadimani/TP_DATA.git
+
+cd TP_DATA
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+python main.py
 
 
 ```
