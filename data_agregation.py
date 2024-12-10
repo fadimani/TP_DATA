@@ -6,7 +6,7 @@ def create_agregate_tables():
     with open("data/sql_statements/create_agregate_tables.sql") as fd:
         statements = fd.read()
         for statement in statements.split(";"):
-            print(statement)
+            print("agregate table created")
             con.execute(statement)
 
 

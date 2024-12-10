@@ -16,7 +16,7 @@ def create_consolidate_tables():
     with open("data/sql_statements/create_consolidate_tables.sql") as fd:
         statements = fd.read()
         for statement in statements.split(";"):
-            print(statement)
+            print('table created')
             con.execute(statement)
 
 def get_INSEE_code(city_name):
