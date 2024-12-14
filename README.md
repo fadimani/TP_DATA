@@ -14,7 +14,8 @@ Le but de ce TP est d'enrichir un pipeline ETL avec des données provenant d'aut
 
 Voici à quoi ressemble le pipeline ETL final:
 
-![images/image2.png](img.png)
+![ETL Pipeline](images/image_2.png)
+
 
 ## Documentation du projet
 La section suivante explique le code que j'ai ajouté au projet afin d'enrichir le pipeline ETL avec des données provenant de nouvelles villes et des données descriptives supplémentaires issues d'une API gouvernementale.
